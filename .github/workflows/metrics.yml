@@ -31,8 +31,6 @@ jobs:
           token: ${{ secrets.METRIC_TOKEN }}
           base: repo
           plugin_languages: yes
-          plugin_languages_ignored: >-
-            html, css, dockerfile, makefile, shell, Javascript, bash, yaml
           plugin_languages_indepth: yes
           plugin_languages_details: lines, bytes-size
           plugin_languages_limit: 4
