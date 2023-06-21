@@ -24,10 +24,10 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           template: repository
-          filename: metrics.repository.svg
+          filename: metrics.svg
           token: ${{ secrets.METRIC_TOKEN }}
-          user: lowlighter
-          repo: metrics
+          user: Assunta Maria
+          repo: G-RIMA
           plugin_lines: yes
           plugin_followup: yes
           plugin_projects: yes
