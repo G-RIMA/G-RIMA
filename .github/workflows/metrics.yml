@@ -18,6 +18,7 @@ jobs:
           base: header
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+          config_padding: 0, 8 + 11%
   
   metric:
     runs-on: ubuntu-latest
