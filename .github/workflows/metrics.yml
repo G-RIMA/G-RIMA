@@ -23,6 +23,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          file-name: metrics.svg
           token: ${{ secrets.METRIC_TOKEN }}
           BASE: ""
           plugin_introduction: yes
